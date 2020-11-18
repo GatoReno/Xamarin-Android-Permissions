@@ -1,8 +1,12 @@
 ﻿using System;
+using Android;
 using Android.App;
+using Android.Content.PM;
 using Android.OS;
 using Android.Runtime;
 using Android.Support.Design.Widget;
+using Android.Support.V4.App;
+using Android.Support.V4.Content;
 using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
@@ -23,11 +27,28 @@ namespace Permisions.Droid
             SetSupportActionBar(toolbar);
 
             FloatingActionButton fab = FindViewById<FloatingActionButton>(Resource.Id.fab);
-            fab.Click += FabOnClick;
+            fab.Click += BLEOnClick;
         }
 
-        
 
+        private    void BLEOnClick(object sender, EventArgs eventArgs)
+        {
+            View view = (View)sender;
+            Snackbar.Make(view, "ASking BLE permissions", Snackbar.LengthLong)
+                .SetAction("Action", (Android.Views.View.IOnClickListener)null).Show();
+
+            if (ContextCompat.CheckSelfPermission(this, Manifest.Permission.Bluetooth) == (int)Permission.Granted)
+            {
+                // We have permission, go ahead and use the camera.
+                Toast.MakeText(this, "BLE granted", ToastLength.Long).Show();
+
+            }
+            else
+            {
+                 ActivityCompat.RequestPermissions(this, new String[] { Manifest.Permission.Bluetooth }, 1);
+            }
+
+        }
         private async void FabOnClick(object sender, EventArgs eventArgs)
         {
             View view = (View)sender;

@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{24292461-3242-407C-BBCD-66E7F1B44EAF}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Permisions.Droid/Properties/AndroidManifest.xml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Permisions.Droid/MainActivity.cs">
     <Files>
-      <File FileName="Permisions.Droid/MainActivity.cs" Line="44" Column="83" />
+      <File FileName="Permisions.Droid/MainActivity.cs" Line="49" Column="1" />
       <File FileName="Permisions.Droid/Properties/AndroidManifest.xml" />
     </Files>
     <Pads>
@@ -9,9 +9,8 @@
         <State name="__root__">
           <Node name="Permisions.Droid" expanded="True">
             <Node name="Permisions.Droid" expanded="True">
-              <Node name="Properties" expanded="True">
-                <Node name="AndroidManifest.xml" selected="True" />
-              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="MainActivity.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -22,7 +21,9 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Permisions.Droid PreferredExecutionTarget="Android.LDGNW18511008472" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/dmn/Projects/Permisions.Droid/Permisions.Droid/MainActivity.cs" relfile="Permisions.Droid/MainActivity.cs" line="47" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
