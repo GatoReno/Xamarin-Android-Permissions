@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{24292461-3242-407C-BBCD-66E7F1B44EAF}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Permisions.Droid/Properties/AndroidManifest.xml">
+    <Files>
+      <File FileName="Permisions.Droid/MainActivity.cs" Line="44" Column="83" />
+      <File FileName="Permisions.Droid/Properties/AndroidManifest.xml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Permisions.Droid" expanded="True">
+            <Node name="Permisions.Droid" expanded="True">
+              <Node name="Properties" expanded="True">
+                <Node name="AndroidManifest.xml" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Permisions.Droid PreferredExecutionTarget="Android.LDGNW18511008472" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
